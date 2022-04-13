@@ -1,13 +1,12 @@
 package com.example.kelasasqllite.Database;
 
 public class Teman {
-    String id;
-    String nama;
-    String telpon;
+
+    String id,nama,telpon;
 
     public Teman() {
-    }
 
+    }
     public Teman(String id, String nama, String telpon) {
         this.id = id;
         this.nama = nama;
